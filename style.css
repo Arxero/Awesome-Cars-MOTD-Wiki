@@ -89,3 +89,12 @@ h2 {
 nav {
     text-align: center;
 }
+
+footer img{
+    width: 300px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
