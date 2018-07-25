@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+div {
+    width: 100%;
+    text-align: center;
+}
+
+#items {
+    font-family: 'Noto Sans', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+#items td, #items th {
+    border: 0px solid #278FE8;
+    padding: 10px;
+}
+
+#items tr:nth-child(even) {
+    background-color: #222222;
+}
+
+#items tr:hover {
+    background-color: #444444;
+}
+
+#items th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #278FE8;
+    color: #e7e7e7;
+}
+
+#items td {
+    color: #2ac400;
+}
+
+#items img {
+    width: 30px;
+    border-radius: 2px;
+}
+
+#items i {
+    cursor: pointer;
+    margin: 3px;
+    font-size: 20px;
+}
+
+body {
+    background: #111111;
+    margin: 0;
+}
+
+h1 {
+    color: #2ac400;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    color: #2ac400;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.button {
+    background-color: #278FE8;
+    border: none;
+    color: #dadada;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, .15);
+    color: #278FE8;
+    border: 2px solid #278FE8;
+}
+
+nav {
+    text-align: center;
+}
