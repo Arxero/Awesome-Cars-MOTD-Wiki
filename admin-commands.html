@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://i.imgur.com/d8c5m7b.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Commands</title>
+</head>
+
+<body>
+
+    <h1>Admin Commands</h1>
+    <table id="items">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Use in the console</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>AMX Mod X menu</td>
+                <td>amxmodmenu</td>
+                <td>Displays the main AMX Mod X menu.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gag menu</td>
+                <td>amx_gagmenu</td>
+                <td>Displays the gag menu.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Add Ban</td>
+                <td>amx_addban "STEAM ID / IP / mID" "time in minutes"</td>
+                <td>Bans player who is not in the server.</td>
+                <td>amx_addban "221.192.199.49" "300"</td>
+            </tr>
+            <tr>
+                <td>Ban</td>
+                <td>amx_ban "STEAM ID / IP / mID" "time in minutes" "reason"</td>
+                <td>Bans player who is not in the server.</td>
+                <td>amx_ban "221.192.199.49" "399" "aim hack"</td>
+            </tr>
+            <tr>
+                <td>Unban</td>
+                <td>amx_unban "STEAM ID / IP / mID"</td>
+                <td>Unbans player.</td>
+                <td>amx_unban "221.192.199.49"</td>
+            </tr>
+            <tr>
+                <td>Gag</td>
+                <td>amx_gag "nick / #id / ip" "time in minutes" "reason"</td>
+                <td>Gags player.</td>
+                <td>amx_gag "221.192.199.49" "5" "swearing"</td>
+            </tr>
+            <tr>
+                <td>Ungag</td>
+                <td>amx_ungag "nick / #id / ip"</td>
+                <td>Ungags gagged player.</td>
+                <td>amx_ungag "221.192.199.49"</td>
+            </tr>
+            <tr>
+                <td>Change map</td>
+                <td>amx_map mapname</td>
+                <td>Changes the map.</td>
+                <td>amx_map awesome_cars2</td>
+            </tr>
+            <tr>
+                <td>Private say</td>
+                <td>amx_psay "name or #userid" "message"</td>
+                <td>Send private message to player.</td>
+                <td>amx_psay "Maverick" "hi"</td>
+            </tr>
+            <tr>
+                <td>Nick change</td>
+                <td>amx_nick "original nick" "new nick"</td>
+                <td>Changes user name.</td>
+                <td>amx_nick "Maverick" "bad cat"</td>
+            </tr>
+            <tr>
+                <td>Tsay</td>
+                <td>amx_tsay "color" "message" / say@ message</td>
+                <td>Sends a left side HUD message to all players.</td>
+                <td>amx_tsay "green" "hi" / say@ hi</td>
+            </tr>
+            <tr>
+                <td>Csay</td>
+                <td>amx_csay "color" "message"</td>
+                <td>Sends a center HUD message to all players.</td>
+                <td>amx_csay "green" "hi"</td>
+            </tr>
+            <tr>
+                <td>Admin chat</td>
+                <td>amx_chat "message" / say_team@ message</td>
+                <td>Sends message to all admins.</td>
+                <td>amx_chat "hi" / say_team@ hi</td>
+            </tr>
+            <tr>
+                <td>Custom poll</td>
+                <td>amx_vote "question" "answer1" "answer2"</td>
+                <td>Starts a custom poll.</td>
+                <td>amx_vote "Is server awesome?" "yes" "no"</td>
+            </tr>
+            <tr>
+                <td>Amx who</td>
+                <td>amx_who</td>
+                <td>Shows who is in the server</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Amx last</td>
+                <td>amx_last</td>
+                <td>Shows who has been in the server</td>
+                <td></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <a href="/">
+        <h2 class="button">Go Back</h2>
+    </a>
+</body>
+
+<footer>
+    <a href="http://awesomecs.syntrwave.com" target="_blank">
+        <img src="https://i.imgur.com/z8612Ya.png">
+    </a>
+</footer>
+
+</html>
