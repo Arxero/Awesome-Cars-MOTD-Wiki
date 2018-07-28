@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
 div {
     width: 100%;
     text-align: center;
@@ -36,10 +39,11 @@ div {
     color: #2ac400;
 }
 
-#items img {
+.img-preview {
     width: 30px;
     border-radius: 2px;
 }
+
 
 #items i {
     cursor: pointer;
@@ -97,4 +101,12 @@ footer img{
 
 footer {
     text-align: center;
+}
+
+a:visited {
+    color: #2ac400;
+}
+
+a:link {
+    color: #2ac400;
 }
