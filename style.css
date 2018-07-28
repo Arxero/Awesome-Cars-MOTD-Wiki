@@ -92,6 +92,8 @@ h2 {
 
 nav {
     text-align: center;
+    width: 850px;
+    margin: 0 auto;
 }
 
 footer img{
