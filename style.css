@@ -89,6 +89,28 @@ h2 {
     border-radius: 5px;
 }
 
+.button-goback {
+    background-color: #278FE8;
+    border: none;
+    color: #dadada;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+}
+
+.button-goback:hover {
+    background: rgba(0, 0, 0, .15);
+    color: #278FE8;
+    border: 2px solid #278FE8;
+}
+
 .button:hover {
     background: rgba(0, 0, 0, .15);
     color: #278FE8;
