@@ -44,6 +44,11 @@ div {
     border-radius: 2px;
 }
 
+.img-preview-paypal {
+    width: 50px;
+    filter: brightness(150%);
+}
+
 
 #items i {
     cursor: pointer;
