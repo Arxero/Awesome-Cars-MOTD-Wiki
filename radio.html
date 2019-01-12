@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="./images/logos/awesome-cars-square-log-720x720.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title>Radio | Awesome Cars + Fun Maps</title>
 </head>
 
@@ -19,11 +20,16 @@
                 <div class="title">80s Planet</div>
                 <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
                 <script type="text/javascript">
+                    let initialVolume = 3
+                    if ($(window).width() <= 500) {
+                        initialVolume = 100
+                    }
+
                     MRP.insert({
                         'url': 'http://80s.streamthenet.com:8888/stream/1/',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -47,7 +53,7 @@
                         'url': 'http://icyrelay.181.fm/181-vibe_128k.mp3',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -71,7 +77,7 @@
                         'url': 'http://107.182.230.134/stream?icy=http',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -85,28 +91,28 @@
             </li>
 
             <li class="radio">
-                    <div class="image">
-                        <img src="./images/radios/Costa-Del-Mar.png" alt="image">
-                    </div>
-                    <div class="title">Costa Del Mar</div>
-                    <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
-                    <script type="text/javascript">
-                        MRP.insert({
-                            'url': 'http://stream.cdm-chillout.com:8020/stream-mp3-Chill',
-                            'lang': 'en',
-                            'codec': 'mp3',
-                            'volume': 5,
-                            'autoplay': false,
-                            'jsevents': true,
-                            'buffering': 0,
-                            'title': "www.costadelmar-radio.com - 100% Chillout from IBIZA!",
-                            'wmode': 'transparent',
-                            'skin': 'tiny',
-                            'width': 130,
-                            'height': 60
-                        });
-                    </script>
-                </li>
+                <div class="image">
+                    <img src="./images/radios/Costa-Del-Mar.png" alt="image">
+                </div>
+                <div class="title">Costa Del Mar</div>
+                <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+                <script type="text/javascript">
+                    MRP.insert({
+                        'url': 'http://stream.cdm-chillout.com:8020/stream-mp3-Chill',
+                        'lang': 'en',
+                        'codec': 'mp3',
+                        'volume': initialVolume,
+                        'autoplay': false,
+                        'jsevents': true,
+                        'buffering': 0,
+                        'title': "www.costadelmar-radio.com - 100% Chillout from IBIZA!",
+                        'wmode': 'transparent',
+                        'skin': 'tiny',
+                        'width': 130,
+                        'height': 60
+                    });
+                </script>
+            </li>
 
             <li class="radio">
                 <div class="image">
@@ -119,7 +125,7 @@
                         'url': 'http://149.13.0.80/radio1128',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -143,7 +149,7 @@
                         'url': 'http://air.radiorecord.ru:805/synth_128',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -167,7 +173,7 @@
                         'url': 'http://79.120.39.202:8000/retrowave',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -191,7 +197,7 @@
                         'url': 'https://my-webradio.stream.laut.fm/my-webradio?t302=2019-01-12_15-32-53&uuid=97feb8f6-5b8a-41af-98d2-4d98b1410bdd',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -215,7 +221,7 @@
                         'url': 'http://46.10.150.243/z-rock.mp3',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 10,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
@@ -239,7 +245,7 @@
                         'url': 'http://stream.metacast.eu/nrj.opus',
                         'lang': 'en',
                         'codec': 'mp3',
-                        'volume': 5,
+                        'volume': initialVolume,
                         'autoplay': false,
                         'jsevents': true,
                         'buffering': 0,
