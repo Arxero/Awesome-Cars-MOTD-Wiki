@@ -74,6 +74,12 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 
+h3 {
+    color: #2ac400;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
 .button {
     background-color: #278FE8;
     color: #dadada;
@@ -216,3 +222,53 @@ a:link {
 /* #MusesRadioPlayer-HTML5-player-0 {
     box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
 } */
+
+/* spray page styles */
+
+main {
+    
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.download {
+    padding: .5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    background: #278FE8;
+    color: #dadada;
+    transition-duration: 0.4s;
+    border: 2px solid #278FE8;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.download:hover {
+    background: rgba(0, 0, 0, .15);
+    transition: background-color .5s ease;
+    color: #278FE8;
+    border: 2px solid #278FE8;
+    box-shadow: 0px 0px 10px 1px rgba(39,142,232,0.71);
+}
+
+.download:hover .icon {
+    border-left: 1px solid #278FE8;
+}
+
+.download .text {
+    text-transform: uppercase;
+}
+
+.download .icon {
+    padding-left: .4rem;
+    border-left: 1px solid #dadada;
+    font-size: 1.3rem;
+}
+
+
