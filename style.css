@@ -56,7 +56,7 @@ div {
 
 body {
     background: #111111;
-    background-image: url(./images/backgrounds/xmas-bg.jpg);
+    /* background-image: url(./images/backgrounds/xmas-bg.jpg); */
     /* background-image: url(./images/backgrounds/summer.png); */
     /* background-image: url(./images/backgrounds/halloween.jpg); */
     background-position: center center;
